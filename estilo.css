@@ -1,0 +1,30 @@
+body{
+	background:#d2d2c1 url('imagem/fundo.png')
+}
+
+#principal{
+
+	width:930PX ;
+}
+
+#menu{
+	background:#c5c5b2 ;
+	padding:18px ;
+
+}
+
+a{
+	color:#4b566a ;
+	text-decoration:none ;
+	font-weight: bold;
+
+}
+
+img{
+	width:900px;
+}
+
+h1{
+	text-align:center ;
+}
+
