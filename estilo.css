@@ -1,23 +1,59 @@
-body{
-	background:#d2d2c1 url('imagem/fundo.png')
+body {
+	background: #d2d2c1 url('imagem/fundo.png');
+	background-size: cover;
+	background-position: center;
 }
 
-#principal{
-
-	width:930PX ;
+#principal {
+	max-width: 930px; /* Limita a largura máxima */
+	width: 100%; /* Preenche 100% da largura disponível */
+	margin: 0 auto; /* Centraliza o conteúdo */
 }
 
-#menu{
-	background:#c5c5b2 ;
-	padding:18px ;
-
+#menu {
+	background: #c5c5b2;
+	padding: 18px;
+	text-align: center;
 }
 
-a{
-	color:#4b566a ;
-	text-decoration:none ;
+a {
+	color: #4b566a;
+	text-decoration: none;
 	font-weight: bold;
+}
 
+img {
+	max-width: 100%; /* A imagem se ajusta ao tamanho do contêiner */
+	height: auto; /* Mantém a proporção da imagem */
+}
+
+h1 {
+	text-align: center;
+}
+
+/* Media Queries para diferentes tamanhos de tela */
+@media (max-width: 768px) {
+	#principal {
+		padding: 10px;
+	}
+
+	#menu {
+		padding: 12px;
+	}
+
+	img {
+		width: 100%; /* Imagem ocupa toda a largura */
+	}
+}
+
+@media (max-width: 480px) {
+	#menu {
+		padding: 8px;
+	}
+
+	h1 {
+		font-size: 1.5em;
+	}
 }
 
 img{
